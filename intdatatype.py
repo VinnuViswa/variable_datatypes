@@ -82,9 +82,9 @@
 
 # Exponent **
 
-print(3 ** 3)
+# print(3 ** 3)
 
-print(5 ** 8)
+# print(5 ** 8)
 
 # Take all Numeric data types and do arithematic operations
 
