@@ -88,8 +88,51 @@
 
 # Take all Numeric data types and do arithematic operations
 
-x = 56.5
-y = 13.2
+# x = 56.5
+# y = 13.2
 
-m = 24 + 6j
-n = 10 + 3j
+# print(type(x))
+# print(type(y))
+
+# z = x + y
+# print(z)
+
+# a = x - y
+# print(a)
+
+# v = x * y
+# print(v) 
+
+# s_d = x / y
+# print(s_d)
+
+# f_d = x // y
+# print(f_d)
+
+# m = x % y
+# print(m)
+
+# e = x**y
+# print(e)
+
+# m = 24 + 6j
+# n = 10 + 3j
+
+# print(type(m))
+# print(type(n))
+
+# sum = m + n
+# sub = m - n
+# mul = m * n
+# div = m / n
+# #f_div = m // n exceptional error
+# #mod = m % n error
+# exc = m ** n
+
+# print(sum)
+# print(sub)
+# print(mul)
+# print(div)
+# #print(f_div) erroe
+# #print(mod)
+# print(exc)
