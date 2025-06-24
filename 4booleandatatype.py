@@ -47,11 +47,10 @@
 # m = 'hari'
 # print(int(m))  #ValueError: invalid literal for int() with base 10: 'hari'
 
-z = 'krish'
+# z = 'krish'
 
 # print(z * 5)
 # print('krishkrishkrish'/2)
-print(ord('$'))
+# print(ord('$'))
 
-print(bin(65))
-    
+# print(bin(65))
