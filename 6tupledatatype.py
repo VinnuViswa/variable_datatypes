@@ -102,8 +102,8 @@ tup4 = (1, 2, 3, 2, 1, 4, 5, 6, 7, 5, 5, 5, 8, 9, 0, 2, 4)
 
 # UNPACKING :-
 
-x, y, z, m = (10, 20 , 30 ,40)
-print(x)
-print(y)
-print(z)
-print(m)
+# x, y, z, m = (10, 20 , 30 ,40)
+# print(x)
+# print(y)
+# print(z)
+# print(m)
