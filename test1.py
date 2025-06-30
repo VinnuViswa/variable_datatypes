@@ -73,9 +73,9 @@
 # 3) str1 = "iuhgSDFGHiuejfdSDX"   --> use this string and 
 #    form a string with only  capital letters of str1.
 
-# str1 = "iuhgSDFGHiuejfdSDX"
-# s1 = str1.isupper()
-# print(str2)
+str1 = "iuhgSDFGHiuejfdSDX"
+s1 = str1[4:9:1] + str1[15::1]
+print(s1)
 
 # 4) str2 = "123456789"  --> get 642 from str2 by slicing [+ve]
 
