@@ -96,9 +96,14 @@ print(type(f_4))  # <class 'frozenset'>
 
 #############################
 
+
 # dict1 = {
 #     frozenset("ALMOND") : "Dryfruit",
 #     "Origin" : "India",
 #     "Price" : 1000
 # }
 # print(dict1)  # {frozenset({'A', 'D', 'L', 'M', 'N', 'O'}): 'Dryfruit', 'Origin': 'India', 'Price': 1000}
+# print(type(dict1))  # <class 'dict'>
+# print(dict1[frozenset("ALMOND")])  # Dryfruit
+# print(dict1["Origin"])  # India
+# print(dict1["Price"])  # 1000
