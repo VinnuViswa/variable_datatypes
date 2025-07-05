@@ -39,5 +39,28 @@
 
 # ACCESSING AND MODIFYING BYTEARRAY ELEMENTS:
 
-b_ar5 = bytearray(b"WOWW......! This is so cool")   
-print(b_ar5[0])  # 87 -> ASCII value of 'W'
+# b_ar5 = bytearray(b"WOWW......! This is so cool")   
+# print(b_ar5[0])  # 87 -> ASCII value of 'W'
+# print(b_ar5[-3])  # 111 -> ASCII value of 'o'
+# print(b_ar5[0:4])  # bytearray(b'WOWW')
+
+# b_ar5[0] = 65 # (b'AWWW......! This is so cool')
+
+# APPENDING AND EXTENDING BYTEARRAY:
+
+b_ar6 = bytearray(b"HELLO")
+# b_ar6.append(87)
+# b_ar6.append(90)
+# print(b_ar6) # bytearray(b'HELLOWZ')
+
+# b_ar6.extend([97,98,99,100])
+# print(b_ar6)  # bytearray(b'HELLOabcd')
+
+# DELETING ELEMENTS FROM BYTEARRAY:
+
+# del b_ar6[0]  # Deletes the first element
+# print(b_ar6)  # bytearray(b'ELLOabcd')
+# del b_ar6[-1]  # Deletes the last element
+# print(b_ar6)  # bytearray(b'ELLOabc')
+# del b_ar6[0::] # Deletes all elements
+# print(b_ar6)  # bytearray(b'') - Now it's empty
