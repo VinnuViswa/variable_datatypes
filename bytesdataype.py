@@ -74,6 +74,6 @@
 
 #############################################
 
-# b9 = b"kfldkjhldsfdslfjhfkjdsfljdsf"  
-# print(b9.find(b'f'))
-# print(b9.rfind(b'f'))
+b9 = b"kfldkjhldsfdslfjhfkjdsfljdsf"  
+print(b9.find(b'f'))
+print(b9.rfind(b'f'))
